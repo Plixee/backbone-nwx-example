@@ -1,0 +1,190 @@
+/* line 17, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/screen.scss */
+body {
+  margin: 50px 0;
+  background: #f3f3f3;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+}
+
+/* line 12, ../sass/screen.scss */
+#container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* line 17, ../sass/screen.scss */
+h1 {
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+/* line 22, ../sass/screen.scss */
+textarea, input[type=text] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #c4c9ce;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #f3f3f3;
+  font-size: 20px;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+  outline: none;
+  -webkit-transition: border linear 0.2s;
+  -moz-transition: border linear 0.2s;
+  -ms-transition: border linear 0.2s;
+  -o-transition: border linear 0.2s;
+  transition: border linear 0.2s;
+  -webkit-transition: box-shadow linear 0.2s;
+  -moz-transition: box-shadow linear 0.2s;
+  -ms-transition: box-shadow linear 0.2s;
+  -o-transition: box-shadow linear 0.2s;
+  transition: box-shadow linear 0.2s;
+}
+/* line 33, ../sass/screen.scss */
+textarea:focus, input[type=text]:focus {
+  border-color: rgba(82, 168, 236, 0.8) !important;
+  -webkit-box-shadow: 0 0 5px 0 rgba(82, 168, 236, 0.8);
+  -moz-box-shadow: 0 0 5px 0 rgba(82, 168, 236, 0.8);
+  box-shadow: 0 0 5px 0 rgba(82, 168, 236, 0.8);
+}
+
+/* line 39, ../sass/screen.scss */
+#new-tweet {
+  width: 600px;
+}
+
+/* line 43, ../sass/screen.scss */
+#send-tweet {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  height: 26px;
+  min-width: 88px;
+  margin-left: 9px;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  border: 1px solid #484b4f;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.2);
+  background-color: #edf1f5;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEDF1F5', endColorstr='#FFB8BDC3');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #edf1f5), color-stop(5%, #eef2f6), color-stop(100%, #b8bdc3));
+  background-image: -webkit-linear-gradient(top, #edf1f5 0%, #eef2f6 5%, #b8bdc3 100%);
+  background-image: -moz-linear-gradient(top, #edf1f5 0%, #eef2f6 5%, #b8bdc3 100%);
+  background-image: -o-linear-gradient(top, #edf1f5 0%, #eef2f6 5%, #b8bdc3 100%);
+  background-image: -ms-linear-gradient(top, #edf1f5 0%, #eef2f6 5%, #b8bdc3 100%);
+  background-image: linear-gradient(top, #edf1f5 0%, #eef2f6 5%, #b8bdc3 100%);
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2b2d30;
+  white-space: nowrap;
+  text-shadow: white 0px 1px 1px;
+  cursor: pointer;
+}
+/* line 7, ../../../../../../../../../Library/LiveReload/Plugins/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+#send-tweet {
+  *display: inline;
+}
+
+/* line 69, ../sass/screen.scss */
+.form-row.right {
+  text-align: right;
+}
+
+/* line 74, ../sass/screen.scss */
+#tweet-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #c4c9ce;
+  overflow: hidden;
+}
+/* line 78, ../sass/screen.scss */
+#tweet-list li h2 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+/* line 81, ../sass/screen.scss */
+#tweet-list li p {
+  padding: 10px;
+}

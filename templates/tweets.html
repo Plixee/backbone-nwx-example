@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta name="viewport" content="width=600, initial-scale=0.5, user-scalable=no">
+	<script src="/static/jquery.js"></script>
+	<script src="/static/underscore.js"></script>
+	<script src="/static/backbone.js"></script>
+	<script src="/static/examples.js"></script>
+	<link href="/static/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="container">
+		<img src="/static/logo.png" alt="Plixee" id="logo"/>
+		<h1>Ecrire un tweet</h1>
+		<div class="form-row">
+			<label for="author">Votre nom</label>
+		</div>
+		<div class="form-row">
+			<input id="author" type="text" />
+		</div>
+		<div class="form-row">
+			<label for="new-tweet">Votre message</label>
+		</div>
+		<div class="form-row">
+			<textarea id="new-tweet"></textarea>
+		</div>
+		<div class="form-row">
+			<button id="send-tweet">Envoyer</button>
+		</div>
+
+		<h1>Derniers tweets</h1>
+			<ul id="tweet-list">
+			</ul>
+	</div>
+
+</body>
+</html>

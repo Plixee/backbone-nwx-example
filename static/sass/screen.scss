@@ -1,0 +1,89 @@
+@import "compass/reset";
+@import "compass/utilities/general";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+
+body{
+	margin: 50px 0;
+	@include background(#f3f3f3);
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+}
+
+#container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1{
+	padding: 15px 0;
+	font-size: 20px;
+}
+
+textarea,input[type=text]{
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid #c4c9ce;
+	@include border-radius(3px);
+	@include background(#f3f3f3);
+	font-size: 20px;
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", Arial, Helvetica, sans-serif;
+	outline: none;
+	@include single-transition(border,linear,0.2s);
+	@include single-transition(box-shadow,linear,0.2s);
+	&:focus{
+		border-color: rgba(82,168,236,0.8) !important;
+		@include single-box-shadow(rgba(82,168,236,0.8),0,0,5px,0);
+	}
+}
+
+#new-tweet{
+	width: 600px;
+}
+
+#send-tweet{
+	@include box-sizing(border-box);
+	position: relative; // fix for text-color (!!) for IE8
+	@include inline-block;
+	height: 26px;
+	min-width: 88px;
+	margin-left: 9px;
+	padding-top: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	border: 1px solid #484b4f;
+	@include border-radius(3px);
+	@include single-box-shadow(rgba(0,0,0,0.2), 0, 1px, 0px, 0, false);
+	background-color: #edf1f5;
+	@include filter-gradient(#edf1f5, #b8bdc3, vertical); // IE6-9
+	@include background-image(linear-gradient(top,  #edf1f5 0%,#eef2f6 5%,#b8bdc3 100%));
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2b2d30;
+	white-space: nowrap;
+	@include single-text-shadow(#fff, 0px, 1px, 1px);
+	cursor: pointer;
+}
+
+.form-row.right{
+	text-align: right;
+}
+
+#tweet-list{
+	li{
+		padding: 10px 0;
+		border-bottom: 1px solid #c4c9ce;
+		overflow: hidden;
+		h2{
+			font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+		}
+		p{
+			padding: 10px;
+		}
+	}
+}
+
+#logo{
+
+}
